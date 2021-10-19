@@ -33,3 +33,6 @@ int Shape::GetY()
 {
 	return Y;
 }
+
+
+

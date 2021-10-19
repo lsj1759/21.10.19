@@ -16,6 +16,7 @@ public:
 	virtual int GetX();
 	virtual int GetY();
 
+
 	inline std::string GetName() { return Name; }
 
 protected:

@@ -13,7 +13,9 @@ public:
 	inline int GetEdge() const { return Edge; }
 	inline void SetEdge(int NewEdge) { Edge = NewEdge; }
 
+	virtual void Save(std::ofstream& writeFile);
+	virtual Shape* Load(std::ifstream& readFile);
+
 private:
 	int Edge;
 };
-
